@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="customInclude">
+      <UniqueIdentifier>{9d89a93b-7663-40ee-9a72-8a38492c4d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customInclude\Search">
+      <UniqueIdentifier>{61a3bc34-40eb-46c5-a17b-ad961c3d3ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="customInclude\Cesar Cypher">
+      <UniqueIdentifier>{5bd8d7ef-004e-4702-984c-c401454024fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="customInclude\Search\search.cpp">
+      <Filter>customInclude\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="customInclude\CesarCypher\cesarcypher.cpp">
+      <Filter>customInclude\Cesar Cypher</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="customInclude\Search\search.h">
+      <Filter>customInclude\Search</Filter>
+    </ClInclude>
+    <ClInclude Include="customInclude\CesarCypher\cesarcypher.h">
+      <Filter>customInclude\Cesar Cypher</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
